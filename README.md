@@ -6,7 +6,7 @@ The code examples provided allow you to encrypt the payload and embed it in the 
 
 ```main_decrypt.c``` must contain this encrypted payload. The code provided demonstrates a working example of dynamically decrypting and running the payload by creating an executable address space.
 
-The key for the RC4 algorithm is ```0xaaaaaaaaaaaaaaaa``` and can be changed.
+The key for the XOR algorithm is ```0xaaaaaaaaaaaaaaaa``` and can be changed.
 
 **RC4 Usage**
 
