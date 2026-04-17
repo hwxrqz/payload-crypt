@@ -18,3 +18,6 @@ The RC4 algorithm code was taken from here:
 **AES Usage**
 
 ```main_ecnrypt.c``` encrypts the payload with the AES-256-CBC algorithm and outputs a C-friendly encrypted byte sequence. AES has been realised with bCrypt Library
+```main_decrypt.c``` must contain this encrypted payload. The code provided demonstrates a working example of dynamically decrypting and running the payload by creating an executable address space.
+
+The AES algorithm code was realised with bCrypt library
